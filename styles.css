@@ -1,20 +1,20 @@
 /* Variables e Inicializaciones */
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-	font-size:medium;
-	font-family:serif;
+    font-size: medium;
+    font-family: serif;
 }
 
 body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     gap: 5px;
 }
 
@@ -23,46 +23,46 @@ body {
 .header {
     width: 100%;
     height: auto;
-    background-color:rgb(27, 47, 77);
-    display:flex;
+    background-color: rgb(27, 47, 77);
+    display: flex;
     flex-flow: column wrap;
-    gap:30px;
+    gap: 30px;
     padding: 30px;
     border-radius: 8px;
 }
 
-.header-logo-container{
+.header-logo-container {
     width: 100%;
     height: auto;
-    display:flex;
+    display: flex;
     flex-flow: column wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.header-logo{
-    width: 15%; 
+.header-logo {
+    width: 15%;
 }
 
-.navigation-bar{
+.navigation-bar {
     text-align: end;
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     width: 100%;
     flex: auto;
 }
 
-.header-list{
+.header-list {
     width: 60%;
 }
 
-.header-list-item{
-    display:inline;
+.header-list-item {
+    display: inline;
 }
 
-.header-link{
+.header-link {
     color: white;
     margin: 5px;
     text-decoration: none;
@@ -75,10 +75,10 @@ body {
 
 /*Main*/
 
-.main{
-    display:flex;
+.main {
+    display: flex;
     flex-flow: column wrap;
-    justify-content:center;
+    justify-content: center;
     gap: 5px;
     width: 100%;
     border-radius: 8px;
@@ -86,11 +86,11 @@ body {
 
 /*---------------- JUMBOTRON -----------------*/
 
-.jumbotron-container{
-    display:flex;
+.jumbotron-container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 100%;
     gap: 30px;
@@ -101,28 +101,28 @@ body {
     border-color: rgb(27, 47, 77);
 }
 
-.jumbotron-item-1{
-    display:flex;
+.jumbotron-item-1 {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: baseline;
     text-align: baseline;
-    justify-content:baseline;
+    justify-content: baseline;
     width: 48%;
-    font-size:x-large;
-    font-style:bold;
-    text-wrap:wrap
+    font-size: x-large;
+    font-style: bold;
+    text-wrap: wrap
 }
 
-.jumbotron-item-2{
-    display:flex;
+.jumbotron-item-2 {
+    display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     text-align: baseline;
     width: 48%;
     gap: 30px;
-    
+
 }
 
 /*Jumbotron email input box*/
@@ -130,63 +130,65 @@ body {
 /* Style the form element with a border around it */
 form {
     border: 1px solid black;
-  }
-  
-  /* Add some padding and a grey background color to containers */
-  .container {
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
     padding: 20px;
-    background-color:white;
-  }
-  
-  /* Style the input elements and the submit button */
-  input[type=text], input[type=submit] {
+    background-color: white;
+}
+
+/* Style the input elements and the submit button */
+input[type=text],
+input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid black;
     box-sizing: border-box;
-  }
-  
-  /* Add margins to the checkbox */
-  input[type=checkbox] {
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
     margin-top: 16px;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
+}
+
+/* Style the submit button */
+input[type=submit] {
     background-color: #40667c;
     color: white;
     border: none;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     opacity: 0.8;
-  }
+}
 
-  /* ------------------Blog-------------------- */
+/* ------------------Blog-------------------- */
 
-.blog-container{
-    display:flex;
+.blog-container {
+    display: flex;
     flex-flow: column wrap;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
-    background-color:rgb(27, 47, 77);
+    background-color: rgb(27, 47, 77);
     padding: 30px;
     gap: 30px;
     border-radius: 8px;
 }
 
-.blog-header-section{
-    display:flex;
+.blog-header-section {
+    display: flex;
     flex-flow: row wrap;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     color: white;
 }
-.blog-item-container{
+
+.blog-item-container {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -194,7 +196,7 @@ form {
     gap: 30px;
 }
 
-.blog-item{
+.blog-item {
     width: 30%;
     display: flex;
     flex-wrap: wrap;
@@ -204,22 +206,80 @@ form {
     color: #ffffff;
 }
 
-.blog-item-img{
-    width:100%;
+.blog-item-img {
+    width: 100%;
     height: fit-content;
     border-radius: 8px;
 }
 
-.blog-item-img:hover{
+.blog-item-img:hover {
     opacity: 0.7;
 }
 
-.blog-link{
+.blog-link {
     text-decoration: none;
     color: black;
 }
 
 .blog-link:hover {
     text-decoration: underline;
+    color: white;
+}
+
+/* ---------------FOOTER---------------- */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(27, 47, 77);
+    border-radius: 8px;
+}
+
+.footer-container-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*Social Media Buttons styling*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
     color: white;
 }
