@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="src/Logo-fig.PNG"/>
+    <link rel="shortcut icon" type="image/png" href="src/Logo-fig.PNG" />
     <link rel="stylesheet" href="styles.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,21 +13,78 @@
 </head>
 
 <body>
-   <!--Header-->
-   <header class="header">
-    <div class="header-logo-container">
-        <img src="src/logo-full.PNG" alt="AIKO Store's Logo" class="header-logo">
-    </div>
+    <!--Header-->
+    <header class="header">
+        <div class="header-logo-container">
+            <img src="src/logo-full.PNG" alt="AIKO Store's Logo" class="header-logo">
+        </div>
 
-    <div class="navigation-bar">
-        <ul class="header-list">
-            <li class="header-list-item"><a href="#" class="header-link">Iniciar sesión</a></li>
-            <li class="header-list-item"><a href="#" class="header-link">Lista de deseos</a></li>
-            <li class="header-list-item"><a href="#" class="header-link">Carrito de compras</a></li>
-        </ul>
-    </div>
-</header>
+        <div class="navigation-bar">
+            <ul class="header-list">
+                <li class="header-list-item"><a href="#" class="header-link">Iniciar sesión</a></li>
+                <li class="header-list-item"><a href="#" class="header-link">Lista de deseos</a></li>
+                <li class="header-list-item"><a href="#" class="header-link">Carrito de compras</a></li>
+            </ul>
+        </div>
+    </header>
 
+    <main class="main">
+
+        <!--Jumbotron-->
+        <div class="jumbotron-container">
+
+            <div class="jumbotron-item-1">
+
+                <div>
+                    <h2>Quiénes somos</h2>
+
+                    <p><br>
+                        Somos una tienda especializada en sneakers de moda y rendimiento. Nuestro catálogo incluye una
+                        cuidadosa selección de marcas exclusivas y modelos icónicos que combinan estilo y comodidad. En
+                        nuestra plataforma, encontrarás las últimas tendencias y los clásicos atemporales para
+                        satisfacer tus necesidades de calzado urbano. ¡Únete a nuestra comunidad de amantes de los
+                        sneakers y encuentra el par perfecto para expresar tu estilo único!
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="jumbotron-item-2">
+
+                <div>
+                    <h2>NO TE PIERDAS DE NADA</h2>
+
+                    <p>Regístrate para recibir promociones, novedades personalizadas, actualizaciones de stock y mucho
+                        más, directamente en tu bandeja de entrada.</p>
+
+                </div>
+
+
+                <form action="#">
+                    <div class="container">
+                        <h2>Recibir actualizaciones por correo electrónico</h2>
+                        <p>Al registrarte, aceptas recibir comunicaciones de marketing por email y reconoces que leíste
+                            nuestra Política de Privacidad. Puedes darte de baja en cualquier momento en la parte
+                            inferior de nuestros emails.</p>
+                    </div>
+
+                    <div class="container" style="background-color:white">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email address" name="mail" required>
+                        <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Recibir novedades
+                        </label>
+                    </div>
+
+                    <div class="container">
+                        <input type="submit" value="Subscribirse">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
 
 </body>
+
 </html>
