@@ -223,7 +223,7 @@ input[type=submit]:hover {
 
 .blog-link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .blog-link:hover {
@@ -235,12 +235,13 @@ input[type=submit]:hover {
 
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: white;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(27, 47, 77);
     border-radius: 8px;
+    padding: 30px;
 }
 
 .footer-container-item {
