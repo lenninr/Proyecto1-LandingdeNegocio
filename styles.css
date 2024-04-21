@@ -18,3 +18,57 @@ body {
     gap: 5px;
 }
 
+/* Header */
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color:rgb(27, 47, 77);
+    display:flex;
+    flex-flow: column wrap;
+    gap:30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.header-logo-container{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.header-logo{
+    width: 15%; 
+}
+
+.navigation-bar{
+    text-align: end;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    flex: auto;
+}
+
+.header-list{
+    width: 60%;
+}
+
+.header-list-item{
+    display:inline;
+}
+
+.header-link{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    color: blue;
+}
