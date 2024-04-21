@@ -163,3 +163,63 @@ form {
   input[type=submit]:hover {
     opacity: 0.8;
   }
+
+  /* ------------------Blog-------------------- */
+
+.blog-container{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    width: 100%;
+    background-color:rgb(27, 47, 77);
+    padding: 30px;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.blog-header-section{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    width: 100%;
+    color: white;
+}
+.blog-item-container{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.blog-item{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.blog-item-img{
+    width:100%;
+    height: fit-content;
+    border-radius: 8px;
+}
+
+.blog-item-img:hover{
+    opacity: 0.7;
+}
+
+.blog-link{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+    color: white;
+}
